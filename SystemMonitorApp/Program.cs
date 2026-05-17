@@ -9,14 +9,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        int interval = 5; // seconds
+        int interval = 5; // Refresh Time interval in seconds
 
         // Load plugins
         var plugins = new IMonitorPlugin[]
         {
             new ConsolePlugin(),
             new FileLoggerPlugin(),
-            //new ApiPlugin("http://localhost:5000/api/monitor") // replace with your API URL
+            //new ApiPlugin("http://localhost:5000") // Soroco has not provided an API plugin, Testing Pending By AMR
         };
 
         // CPU counter
