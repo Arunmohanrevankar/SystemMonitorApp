@@ -9,7 +9,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        int interval = 5; // Refresh Time interval in seconds
+        int interval = 5; // Refresh Time interval in seconds, edit to change time interval
 
         // Load plugins
         var plugins = new IMonitorPlugin[]
